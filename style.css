@@ -1,26 +1,41 @@
 body {
+    font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
 h1 {
     font-size: 50px;
+    font-weight: 700;
+}
+
+.lifeofan {
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .orange {
     color: orange;
 }
 
+.red-tomato {
+    color: orangered;
+}
+
 #nelson {
-    color: seagreen
+    color: rgb(114, 28, 205)
 }
 
 #name {
     color: rgb(171, 11, 56);
+    text-align: center;
+}
+
+#paragraph1 {
+    text-align: justify;
 }
 
 .flexible-container {
@@ -55,8 +70,16 @@ h2 {
 
 }
 
+.experience-area p {
+    text-align: justify;
+}
+
 .half img {
     width: 80%;
+}
+
+#exp {
+    margin-left: 20px;
 }
 
 .link-button {
@@ -67,11 +90,28 @@ h2 {
     padding: 10px 40px;
     border-radius: 5px;
 
+
+}
+
+.download-resume {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 600;
+    padding: 20px 50px;
+    border-radius: 5px;
+
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big-container {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #full-stack-developer {
@@ -84,4 +124,27 @@ h2 {
 
 footer p {
     text-align: center;
+}
+
+.dream-big-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+#dream-big {
+    color: rgb(18, 179, 18);
+}
+
+.dream-big-container p {
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.skyblue {
+    color: rgb(246, 7, 7);
+}
+
+#exp {
+    text-align: center;
+
 }
